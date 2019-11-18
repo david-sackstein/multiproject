@@ -1,0 +1,4 @@
+rootProject.name = 'productservice'
+
+include ':productcommon'
+project(':productcommon').projectDir = new File('../productcommon')

@@ -1,0 +1,7 @@
+rootProject.name = 'multiproject'
+
+include ':productservice'
+project(':productservice').projectDir = new File('../productservice')
+
+include ':productcommon'
+project(':productcommon').projectDir = new File('../productcommon')
