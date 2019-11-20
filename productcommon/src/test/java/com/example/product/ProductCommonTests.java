@@ -1,11 +1,11 @@
 package com.example.product;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ProductCommonTests {
+class ProductCommonTests {
 
 	@Test
-	public void contextLoads() {
+	void test1() {
 		System.out.printf("%s\n", ProductFactory.createProduct());
 	}
 }

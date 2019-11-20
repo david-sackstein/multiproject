@@ -12,8 +12,7 @@ repositories {
 }
 
 dependencies {
-	testCompile 'junit:junit:4.13-rc-1'
-	testCompile 'org.junit.jupiter:junit-jupiter-engine:5.2.0'
+	testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.2.0'
 }
 
 test {
