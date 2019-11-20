@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ProductController {
-
     @GetMapping(value = "helloworld")
     public String GetHelloWorld() {
         return ProductFactory.createProduct();

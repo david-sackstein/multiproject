@@ -11,6 +11,6 @@ repositories {
 }
 
 dependencies {
-	project ':productcommon'
-	project ':productservice'
+	implementation project (':productcommon')
+	implementation project (':productservice')
 }
